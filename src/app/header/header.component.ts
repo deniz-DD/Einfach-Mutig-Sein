@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+   testdwqd =  false;
+
+   test(){
+    if(this.testdwqd === false){
+      this.testdwqd= true;
+    }else{
+      this.testdwqd = false;
+    }
+
+   }
+
+  
+
+
+
 }

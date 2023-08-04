@@ -1,1 +1,30 @@
-<p>header works!</p>
+<header >
+
+    <nav class="px-sm-1 ">
+            <div class="logo  ps-sm-5 ps-md-5 " >
+              <div class="top-container">
+                 <span class="top-span">Einfach&#9702;mutig&#9702;sein</span>
+              </div>
+              <div class="bottom-container">
+                <span class="bottom-span">Christa &#8226;Schulz</span>
+              </div>
+            </div>
+            <div class="hamburger"(click)="test()" >
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+ 
+     <ul class="nav-links"    [ngClass]="{'open':  testdwqd === true }">
+                <li [ngClass]="{'fate': testdwqd === true}"><a href="#home_page">Home</a></li>
+                <li [ngClass]="{'fate': testdwqd === true}"><a href="#about_me">Über mich</a></li>
+                <li [ngClass]="{'fate': testdwqd === true}"><a href="index-2.html">Lerncoaching</a></li>
+                <li [ngClass]="{'fate': testdwqd === true}"><a href="">Blog</a></li>
+                <li [ngClass]="{'fate': testdwqd === true}"><a href="">Kontakt</a></li>
+            </ul>
+
+    </nav>
+
+
+
+</header>
