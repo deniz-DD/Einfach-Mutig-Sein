@@ -19,7 +19,7 @@ export class HeaderComponent {
    }
    CollpaseFalse(){
     this.isBurgerMenuClick = false;
-    console.log('ifwjrfijoe');
+    
     
    }
 
