@@ -15,12 +15,12 @@
                 <div class="line3"></div>
             </div>
  
-     <ul class="nav-links"    [ngClass]="{'open':  testdwqd === true }">
-                <li [ngClass]="{'fate': testdwqd === true}"><a href="#home_page">Home</a></li>
-                <li [ngClass]="{'fate': testdwqd === true}"><a href="#about_me">Über mich</a></li>
-                <li [ngClass]="{'fate': testdwqd === true}"><a href="index-2.html">Lerncoaching</a></li>
-                <li [ngClass]="{'fate': testdwqd === true}"><a href="">Blog</a></li>
-                <li [ngClass]="{'fate': testdwqd === true}"><a href="">Kontakt</a></li>
+     <ul class="nav-links"    [ngClass]="{'open':  isBurgerMenuClick === true }">
+                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/home" routerLinkActive="active" >Home</a></li>
+                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/ueber-mich" routerLinkActive="active">Über mich</a></li>
+                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick=== true}"><a routerLink="/lerncoaching" routerLinkActive="active">Lerncoaching</a></li>
+                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/blog" routerLinkActive="active">Blog</a></li>
+                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/kontakt" routerLinkActive="active">Kontakt</a></li>
             </ul>
 
     </nav>
