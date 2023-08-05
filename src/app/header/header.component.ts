@@ -7,15 +7,20 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-   testdwqd =  false;
+   isBurgerMenuClick =  false;
 
    test(){
-    if(this.testdwqd === false){
-      this.testdwqd= true;
+    if(this.isBurgerMenuClick === false){
+      this.isBurgerMenuClick= true;
     }else{
-      this.testdwqd = false;
+      this.isBurgerMenuClick = false;
     }
 
+   }
+   CollpaseFalse(){
+    this.isBurgerMenuClick = false;
+    console.log('ifwjrfijoe');
+    
    }
 
   
