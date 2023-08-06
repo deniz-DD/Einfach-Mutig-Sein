@@ -6,7 +6,7 @@
     display: block;
 }
 footer{
-  height: 70%;
+  height: 90%;
 }
 @media (min-width: 576px) {  
   .main-body{
@@ -21,12 +21,16 @@ footer{
         padding-top: 99px;
     }
     footer{
-      height: 70%;
+      height: 90%;
     }
  }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+  footer{
+    height: 40%;
+  }
 
   }
 

@@ -25,6 +25,14 @@ $seventh-color: #566989;
                 font-size: 14px;
             }
         }
+        .nav-container{
+            a{
+                color: #212529;
+                font-size: 14px;
+                text-decoration: none;
+                pointer-events: all;
+            }
+        }
     }
     .footer-b-container{
         height: 5%;
