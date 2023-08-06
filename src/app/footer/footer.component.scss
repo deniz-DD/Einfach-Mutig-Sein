@@ -1,0 +1,35 @@
+$primary: #90a181; 
+$secondry: #a58f66;
+$secondry-two-color: #c7b490;
+$third-color: #ffffff; 
+$fourth-color: #70835f; 
+$fourth-two-color: #4b5c3c;
+$fivth-color: #c995b3; 
+$fivth-two-color: #aa648d;
+$sixth-color: #15223b;
+$ex: #ff73a4;
+$seventh-color: #566989;
+
+
+
+.footer-container{
+
+    background-color: $seventh-color;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0px;
+    .footer-t-container{
+        height: 95%;
+        .text-container{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+    .footer-b-container{
+        height: 5%;
+        background-color: #ffffff;
+    }
+   
+    
+}
