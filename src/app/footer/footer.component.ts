@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-footer',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  
+
+
+  constructor(private vps: ViewportScroller) {}
+
+  scroll() {
+    this.vps.scrollToPosition([0, 0]);
+  }
+
 }
+
