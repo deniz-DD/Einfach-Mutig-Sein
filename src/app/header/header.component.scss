@@ -27,7 +27,7 @@ header{
      
   }
   
-  /*Styling logo*/
+ 
   .logo{
      width: 100%;
      display: flex;
@@ -87,7 +87,7 @@ header{
   
  
   
-  /*Styling Links*/
+
   .nav-links{
      display: flex;
      list-style: none; 
@@ -122,7 +122,7 @@ header{
      width: 80%;
   }
   
-  /*Styling Buttons*/
+ 
   .login-button{
      background-color: transparent;
      border: 1.5px solid #f2f5f7;
@@ -155,7 +155,7 @@ header{
      transition: all ease-in-out 350ms;
   }
   
-  /*Styling Hamburger Icon*/
+  
   .hamburger div{
      width: 30px;
      height:3px;
@@ -167,9 +167,9 @@ header{
      display: none;
   }
   
-  /*Stying for small screens*/
   @media screen and (max-width: 800px){
      nav{
+  
          position: fixed;
          z-index: 10;
      }
@@ -246,7 +246,7 @@ header{
          opacity: 1;
      }
   }
-  /*Animating Hamburger Icon on Click*/
+  
   .toggle .line1{
      transform: rotate(-45deg) translate(-5px,6px);
   }
