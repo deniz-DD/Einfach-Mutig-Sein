@@ -10,6 +10,7 @@ import { LerncoachingComponent } from './lerncoaching/lerncoaching.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { ImgComponent } from './img/img.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     LerncoachingComponent,
     BlogComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ImgComponent
   ],
   imports: [
     BrowserModule,

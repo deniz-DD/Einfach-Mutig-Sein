@@ -331,7 +331,7 @@ header{
       padding-top: 4.5rem !important;
    }
    nav{
-      height: 4.5rem;
+      height: 6rem;
       width: 100%;
       background-color: $third-color;
       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -340,6 +340,22 @@ header{
       z-index: 10;
       
    }
+   .nav-links.open{
+      //   clip-path: circle(1000px at 90% -10%);
+      //   -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+        height: 60vh;
+        width: 50%;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        top: 6rem;
+        display:flex;
+        background-color: white;
+        border-top: 1px solid #131418;
+    }
+   
    .logo{
       width: 45%;
       display: flex;
