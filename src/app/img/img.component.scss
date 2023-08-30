@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'AkrobatBold';
+    src: url('../../assets/font/akrobat-family/Akrobat-Bold.otf');
+ }
+
+.im{
+    position: relative;
+}
 img {
-    display: block;
+    
+   
     width: 100%;
     height: 400px;
   }
@@ -11,11 +20,32 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
+    h1{
+
+        font-size: 50px;
+        span{
+
+            font-family: AkrobatBold;
+
+        }
+    }
 }
 
 @media (min-width: 576px) { 
     img{
+        position: relative;
         height: 500px;
+
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+           
+        
+        }
     }
  }
 

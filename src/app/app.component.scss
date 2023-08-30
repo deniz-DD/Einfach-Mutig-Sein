@@ -2,7 +2,7 @@
 
 .main-body{
     padding-top: 84px;
-    height: 100%;
+    height: auto;
     .img-container{
       height: 65%;
     }
@@ -11,9 +11,10 @@ footer{
   padding-bottom: 0px;
   
 }
-@media (min-width: 576px) {  
+@media (min-width: 576px) {   
   .main-body{
     padding-top: 100px;
+   
 
     .img-container{
       height: 500px;
