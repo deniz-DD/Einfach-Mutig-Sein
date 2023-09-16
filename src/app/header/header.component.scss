@@ -46,6 +46,7 @@ header{
           text-align: center; 
           font-size: 18px;
           letter-spacing: 5px;
+          border-bottom: 1px solid $ex;
        }
       
        
@@ -55,7 +56,6 @@ header{
      .bottom-container{
        width: 50%;
        height: auto;
-       border-top: 1px solid $ex;
        display: flex;
        justify-content: center;
        
@@ -258,74 +258,7 @@ header{
      transform: rotate(45deg) translate(-5px,-6px);
   }
 
-  @media (min-width: 576px) {
-    .pt-sm-6{
-       padding-top: 4.5rem !important;
-    }
-    nav{
-       height: 4.5rem;
-       width: 100%;
-       background-color: $third-color;
-       box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
-       display: flex;
-       position: fixed;
-       z-index: 10;
-       
-    }
-    .logo{
-       width: 45%;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
-       .top-container{
-         width: 100%;
-         height: auto; 
-         display: flex;
-         justify-content: center;
-         
-       //   border-bottom: 3px solid $fivth-two-color;
-   
-         .top-span{
-            text-align: center; 
-         }
-        
-         
-   
-   
-       }
-       .bottom-container{
-         width: 100%;
-         height: auto;
-         border-top: 1px solid $ex;
-         display: flex;
-         justify-content: center;
-         
-   
-   
-   
-         .bottom-span{
-             text-align: center;
-             // font-family: 'Charlotte';
-             font-size: 9px;
-             padding-top: 5px;
-         }
-   
-        
-   
-       }
-      
-       span{
-         color: black; 
-         font-size: 17px; 
-         font-weight:bold; 
-         letter-spacing: 1px;
-         margin-left: 20px;
-         text-transform: uppercase;
-          
-       }
-    }
-}
+ 
 @media (min-width: 576px) {
    .pt-sm-6{
       padding-top: 4.5rem !important;
@@ -372,6 +305,7 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
        
         
@@ -381,7 +315,7 @@ header{
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
+        
         display: flex;
         justify-content: center;
         
@@ -457,16 +391,13 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
-       
-        
-  
-  
+
       }
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
         display: flex;
         justify-content: center;
         
@@ -524,6 +455,7 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
        
         
@@ -533,7 +465,6 @@ header{
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
         display: flex;
         justify-content: center;
         
@@ -591,6 +522,7 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
        
         
@@ -600,7 +532,6 @@ header{
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
         display: flex;
         justify-content: center;
         
@@ -660,6 +591,7 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
        
         
@@ -669,7 +601,6 @@ header{
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
         display: flex;
         justify-content: center;
         
@@ -728,6 +659,7 @@ header{
   
         .top-span{
            text-align: center; 
+           border-bottom: 1px solid $ex;
         }
        
         
@@ -737,7 +669,6 @@ header{
       .bottom-container{
         width: 100%;
         height: auto;
-        border-top: 1px solid $ex;
         display: flex;
         justify-content: center;
         
