@@ -3,9 +3,6 @@
     src: url('../../assets/font/akrobat-family/Akrobat-Bold.otf');
  }
 
-.im{
-    position: relative;
-}
 img {
     
    
@@ -20,9 +17,9 @@ img {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    h1{
+    p{
 
-        font-size: 50px;
+        font-size: 35px;
         span{
 
             font-family: AkrobatBold;
@@ -35,7 +32,7 @@ img {
     img{
         position: relative;
         height: 500px;
-
+    }
         .text-overlay {
             position: absolute;
             top: 50%;
@@ -43,14 +40,53 @@ img {
             transform: translate(-50%, -50%);
             text-align: center;
             color: white;
+
+            p{
+                font-size: 35px;
+                span{
+
+                    font-family: AkrobatBold;
+        
+                }
+            }
+
+            
+
            
         
         }
     }
- }
+ 
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  }
+@media (min-width: 768px) {
+
+    img{
+        position: relative;
+        height: 500px;
+    }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+
+           p{
+             font-size: 50px;
+             span{
+
+                font-family: AkrobatBold;
+    
+             }
+           } 
+
+           
+        
+        }
+    }
+  
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {  }
