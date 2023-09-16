@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'AkrobatBold';
+    src: url('../../assets/font/akrobat-family/Akrobat-Bold.otf');
+ }
+
+img {
+    
+   
+    width: 100%;
+    height: 400px;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    p{
+
+        font-size: 35px;
+        span{
+
+            font-family: AkrobatBold;
+
+        }
+    }
+}
+
+@media (min-width: 576px) { 
+    img{
+        position: relative;
+        height: 500px;
+    }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+
+            p{
+                font-size: 35px;
+                span{
+
+                    font-family: AkrobatBold;
+        
+                }
+            }
+
+            
+
+           
+        
+        }
+    }
+ 
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+    img{
+        position: relative;
+        height: 500px;
+    }
+        .text-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+
+           p{
+             font-size: 50px;
+             span{
+
+                font-family: AkrobatBold;
+    
+             }
+           } 
+
+           
+        
+        }
+    }
+  
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    img{
+        height: 600px;
+    }
+ }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }
