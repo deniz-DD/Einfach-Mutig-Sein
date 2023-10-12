@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-me.component.scss']
 })
 export class AboutMeComponent {
-
+   quote_text= "Hallo ich bin der Quote_Text";
 }
