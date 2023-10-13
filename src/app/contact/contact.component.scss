@@ -12,9 +12,9 @@ $seventh-color: #566989;
 
 .quote-container{
 
-    background-color: antiquewhite;
+    background-color: #e5b487;
     height: 50px;
-    h1{
+    p{
         margin-bottom: 0px;
     }
 }
@@ -26,7 +26,7 @@ $seventh-color: #566989;
 
 ul{
     svg{
-        color: #00DB92;
+        color: darkblue;
     }
     p{
         font-size: 15px;
@@ -120,19 +120,20 @@ select:focus {
 
 input[type="submit"] {
 	flex:0 1 40%;
-	
+	color: black;
 	padding:0.8em;
 	font-size:1.2rem;
 	font-family:inherit;
 	text-shadow:0 1px 0 #fff;
-	background:#00DB92;
+	background:white;
 	border-radius:0.25em;
 	border:0;
 	transition:0.3s;
+	border: 2px solid darkblue;
 	cursor:pointer;
 }
 input[type="submit"]:hover {
-	color:#fff;
+	color: darkblue;
 }
 
 
