@@ -139,6 +139,15 @@ input[type="submit"]:hover {
 
 
 @media (min-width: 576px) { 
+
+	.quote-container{
+
+        background-color: #e5b487;
+        height: 80px;
+        h1{
+            margin-bottom: 0px;
+        }
+    }
     .form-field label {
 	
         width: 20%;
