@@ -1,0 +1,59 @@
+.quote-container{
+
+    background-color: #e5b487;
+    height: 50px;
+    h1{
+        margin-bottom: 0px;
+    }
+}
+.divider{
+    border-top: 3px dashed #bbb;
+}
+.home-about-me-section{
+
+    .row{
+    
+        .about-image-container{
+            .second-img-container{
+               height: auto;
+               width: auto;
+               
+   
+               img{
+                  height: 100px;
+                  width: 20px;
+                  
+                  
+               }
+              
+            }
+          
+         }
+
+ }
+
+    
+}
+@media (min-width: 576px) {  
+    .quote-container{
+
+        background-color: #e5b487;
+        height: 80px;
+        h1{
+            margin-bottom: 0px;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {  }
