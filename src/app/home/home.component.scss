@@ -116,20 +116,17 @@ $seventh-color: #566989;
 }
 
 .list-cards{
-    .cards-wrapper{
-        display: flex;
-        justify-content: center;
-        .card{
-            margin: 0 3rem;
-            width: calc(100%/3);
-            height: 60vh;
-
-            .card-img-top{
-                height: calc(100%/2);
-            }
-            
-        }
-    }
+   .c-transition {
+    opacity: 0.5;
+    transition: all 0.2s;
+     &:hover{
+        transition: all 0.2s;
+        height: 23rem;
+        width: 25rem;
+        opacity: 1;
+     }
+    
+   }
 }
 @media (min-width: 576px) {  
     .quote-container{
