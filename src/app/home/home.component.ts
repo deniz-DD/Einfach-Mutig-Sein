@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
   quote_text= "Hallo ich bin der Quote_Text";
+
+  buttonCo: {[key:string]: string}={
+    'background-color': 'blue'
+  };
+
+  red(){
+    if(this.buttonCo['background-color'] === 'blue'){
+      this.buttonCo['background-color'] = 'red';
+    }
+    
+    
+  }
 }
