@@ -1,30 +1,28 @@
-<header >
+<header>
+  <nav class="site-nav px-sm-1" aria-label="Hauptnavigation">
+    <a class="logo ps-sm-5 ps-md-5" routerLink="" (click)="CollpaseFalse()" aria-label="Einfach mutig sein Startseite">
+      <span class="top-span">Einfach&#9702;mutig&#9702;sein</span>
+      <span class="bottom-span">Christa &#8226; Schulz</span>
+    </a>
 
-    <nav class="px-sm-1 ">
-            <div class="logo  ps-sm-5 ps-md-5" >
-              <div class="top-container">
-                 <span class="top-span">Einfach&#9702;mutig&#9702;sein</span>
-              </div>
-              <div class="bottom-container">
-                <span class="bottom-span">Christa &#8226;Schulz</span>
-              </div>
-            </div>
-            <div class="hamburger"(click)="test()" >
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
- 
-     <ul class="nav-links"    [ngClass]="{'open':  isBurgerMenuClick === true }">
-                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="" routerLinkActive="active" >Home</a></li>
-                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/ueber-mich" routerLinkActive="active">Über mich</a></li>
-                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick=== true}"><a routerLink="/lerncoaching" routerLinkActive="active">Lerncoaching</a></li>
-                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/blog" routerLinkActive="active">Blog</a></li>
-                <li (click)="CollpaseFalse()"  [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/kontakt" routerLinkActive="active">Kontakt</a></li>
-            </ul>
+    <button
+      class="hamburger"
+      type="button"
+      (click)="test()"
+      [class.is-open]="isBurgerMenuClick"
+      [attr.aria-expanded]="isBurgerMenuClick"
+      aria-label="Men&uuml; &ouml;ffnen oder schlie&szlig;en">
+      <span class="line1"></span>
+      <span class="line2"></span>
+      <span class="line3"></span>
+    </button>
 
-    </nav>
-
-
-
+    <ul class="nav-links" [ngClass]="{'open': isBurgerMenuClick === true}">
+      <li (click)="CollpaseFalse()" [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+      <li (click)="CollpaseFalse()" [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/ueber-mich" routerLinkActive="active">&Uuml;ber mich</a></li>
+      <li (click)="CollpaseFalse()" [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/lerncoaching" routerLinkActive="active">Lerncoaching</a></li>
+      <li (click)="CollpaseFalse()" [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/blog" routerLinkActive="active">Blog</a></li>
+      <li (click)="CollpaseFalse()" [ngClass]="{'fate': isBurgerMenuClick === true}"><a routerLink="/kontakt" routerLinkActive="active">Kontakt</a></li>
+    </ul>
+  </nav>
 </header>
